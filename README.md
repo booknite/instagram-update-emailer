@@ -18,20 +18,25 @@ This project is a simple, Google Sheets-based tool to stay updated with Instagra
 
 ## Setup
 
-1. Copy the Google Sheet:
-* Click here to copy the Google Sheet template.
+**1. Copy the Google Sheet**
+* Download the Google Sheet template [here](https://docs.google.com/spreadsheets/d/148LwuobrdAJiLJ9MlnwR0zx-eDS8YxWPnQ2BV2mLEUI/edit?usp=sharing).
 * Save it to your Google Drive.
-2. Add the Script:
+
+**2. Add the Script**
 * In the Google Sheet, go to Extensions > Apps Script.
 * Replace the existing code with the code in the script.js file included in this repository.
-3. Set the Recipient Email:
+
+**3. Set the Recipient Email**
 * Enter the email address where notifications should be sent in cell E2.
-4. Authorize the Script:
+
+**4. Authorize the Script**
 * The first time you run the script, you’ll be prompted to accept permissions. Click "Authorize" to allow the script to send emails on your behalf.
-5. Set Up Automatic Triggers:
+
+**5. Set Up Automatic Triggers**
 * Go to Apps Script > Triggers.
 * Add a new trigger for the checkForNewPosts function to run at regular intervals (e.g., every 10 minutes).
-6. Start Monitoring:
+
+**6. Start Monitoring**
 * Enter the Instagram usernames you want to track in column A and their profile URLs in column B. The tool will begin checking for new posts automatically.
 
 ## Usage
@@ -42,10 +47,11 @@ The tool checks for new posts based on the interval set in the Google Apps Scrip
 ### Email Notification Content
 When a new post is detected, you’ll receive an email with the following details:
 
-*Subject: '[Instagram Username]' made a new Instagram post today!
-Body: The message will include a link to the Instagram profile with the new post:
+*Subject*: `Instagram Username` made a new Instagram post today!
 
-Check it out at '[Instagram Profile URL]'*
+*Body*: The message will include a link to the Instagram profile with the new post:
+
+Check it out at `Instagram Profile URL`
 
 ## Author
 
