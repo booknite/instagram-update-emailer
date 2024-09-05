@@ -10,6 +10,7 @@ This project is a simple, Google Sheets-based tool to stay updated with Instagra
       <br />
       <em>PNG 1</em>
     </td>
+</table>
 
 * No API Connections Needed: Simply enter Instagram usernames and the tool will handle the rest
 * Customizable Email Alerts: Notifications are sent to the email address specified in cell E2
